@@ -743,7 +743,7 @@ class Modmail(commands.Cog):
             if closer is None:
                 closer_msg = "Unknown"
             else:
-                closer_msg = f"<@{closer['id']}>"
+                closer_msg = f"Moderation Team"
             embed.add_field(name="Closed By", value=closer_msg)
 
             if entry["recipient"]["id"] != entry["creator"]["id"]:
@@ -2174,7 +2174,7 @@ class Modmail(commands.Cog):
         if self.bot.config["dm_disabled"] == DMDisabled.NEW_THREADS:
             embed = discord.Embed(
                 title="New Threads Disabled",
-                description="Modmail is not creating new threads.",
+                description="You cannot contact this bot! Contact <@1001170437134368890>",
                 color=self.bot.error_color,
             )
         elif self.bot.config["dm_disabled"] == DMDisabled.ALL_THREADS:
