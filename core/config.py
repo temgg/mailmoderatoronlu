@@ -68,7 +68,7 @@ class ConfigManager:
         "thread_self_closable_creation_footer": "Click the lock to close the thread",
         "thread_creation_contact_title": "New Thread",
         "thread_creation_self_contact_response": "You have opened a Modmail thread.",
-        "thread_creation_contact_response": "{creator.name} has opened a Modmail thread.",
+        "thread_creation_contact_response": "The Moderation Team has opened a Modmail thread.",
         "thread_creation_title": "Thread Created",
         "thread_close_footer": "Replying will create a new thread",
         "thread_close_title": "Thread Closed",
